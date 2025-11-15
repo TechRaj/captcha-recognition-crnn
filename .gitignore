@@ -1,0 +1,34 @@
+# Dataset files (download from Kaggle instead)
+captacha_dataset/
+train/
+test/
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+venv/
+env/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Model checkpoints (gradio_demo uses git submodule with LFS)
+*.pth
+*.pt
+*.ckpt
+!gradio_demo/best_model.pth
+
+# IDEs
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
