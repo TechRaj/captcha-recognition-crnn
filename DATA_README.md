@@ -11,7 +11,7 @@ This project uses a CAPTCHA dataset that is **not included** in this repository 
 
 ## Download Dataset
 
-📦 **Kaggle Dataset**: https://www.kaggle.com/datasets/techraj/captcha-training-images
+**Kaggle Dataset**: https://www.kaggle.com/datasets/techraj/captcha-training-images
 
 ## Setup Instructions
 
@@ -40,7 +40,3 @@ kaggle datasets download -d techraj/captcha-training-images
 unzip captcha-training-images.zip
 ```
 
-## Referenced Papers
-
-The `referenced_papers/` folder contains research papers used for this project.
-See the bibliography section in `model_logs.md` for full citations.
